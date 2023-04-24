@@ -14,17 +14,13 @@ package q5
 //
 //Ajude Pedro a lidar com esta tarefa fácil.
 
-import (
-	"strings"
-)	
-	
 func ProcessString(s string) string {
 	result := ""
 
 	for i := 0; i < len(s); i++ {
 		if strings.Contains("AEIOUaeiou", string(s[i])) {
 
-			s = strings.ReplaceAll(s, "a", "")
+			s := strings.ReplaceAll(s, "a", "")
 			s = strings.ReplaceAll(s, "e", "")
 			s = strings.ReplaceAll(s, "i", "")
 			s = strings.ReplaceAll(s, "o", "")
