@@ -15,7 +15,6 @@ package q5
 //Ajude Pedro a lidar com esta tarefa fácil.
 
 import (
-	"fmt"
 	"strings"
 )	
 	
