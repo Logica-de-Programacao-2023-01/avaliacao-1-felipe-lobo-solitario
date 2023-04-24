@@ -45,10 +45,3 @@ func ClassifyPrices(prices []int) (int, error) {
 		return 3, nil
 	}
 }
-Footer
-© 2023 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
-Security
-Status
